@@ -150,6 +150,7 @@ html {
 <section class="msger">
     <header class="msger-header">
       <div class="msger-header-title">
+	      <a href = "/inbox">Go back</a>
         <i class="fas fa-comment-alt"></i>
 		{% if thread.receiver == request.user %}
 		<img src="{{thread.user.avatar.url}}" class="msg-img">
